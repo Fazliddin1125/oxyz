@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+/* 1. Manrope fontini import qilish (yoki Fontsource orqali) */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@theme{
+  /* 2. Manrope fontini Tailwind o'zgaruvchisi sifatida qo'shish */
+  --font-manrope: "Manrope", sans-serif;
+  
+  /* Agar butun sayt uchun asosiy font qilmoqchi bo'lsangiz: */
+  /* --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif; */
+}
