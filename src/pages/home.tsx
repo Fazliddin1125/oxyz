@@ -34,8 +34,9 @@ const HomePage = () => {
             <div className="mt-[10px] ml-[10px] mr-[10px]">
                 <MainComponent />
                 <MapComponent />
-                <FormComponent />
+            <FormComponent />
             </div>
+            
         </div>
     )
 }
